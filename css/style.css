@@ -8,25 +8,48 @@
 }
 
 /* Utils */
-.product {
-  background-color: purple;
-  border: black dashed;
-  display: inline-block;
-  width: 350px;
-  height: 600px;
+.product-card {
+  display: flex;
+  width: 30%;
+  height: 500px;
   margin: 50px 10px;
+  flex-direction: column;
 }
 
 .container {
   margin: 0 auto;
-  height: fit-content;
-  width: 70%;
+  width: 1000px;
+  max-width: 100%;
 }
 
 .text-container {
   height: fit-content;
-  position: relative;
-  top: 600px;
+}
+
+.image-container {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Main */
+
+.main .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+.product-card:hover .image-container:last-of-type {
+  display: block;
+}
+
+.product-card:hover .image-container:first-of-type {
+  display: none;
+}
+
+.product-card .image-container:last-of-type {
+  display: none;
+}
