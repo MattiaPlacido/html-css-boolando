@@ -55,6 +55,7 @@ a {
   position: absolute;
   bottom: 100px;
 }
+
 /* Header */
 header {
   position: sticky;
@@ -78,6 +79,10 @@ header {
 
 .header .container .text-container > a {
   color: white;
+}
+
+.header .container .item-container {
+  filter: invert(99%);
 }
 
 /* Main */
@@ -104,6 +109,36 @@ header {
 .product-card .tag.topright:hover {
   color: red;
 }
+
+/* Footer */
+.footer {
+  background-color: rgb(29 29 29);
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .text-container {
+  color: white;
+}
+
+.footer .text-container > a {
+  color: white;
+  gap: 10px;
+  display: inline-block;
+  font-size: small;
+  margin-right: 7px;
+}
+
+.footer .item-container {
+  color: white;
+}
+
+.footer .item-container > i {
+  margin: 7px 3px;
+}
+
 /* SPAM */
 .red {
   color: red;
