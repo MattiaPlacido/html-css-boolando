@@ -1,0 +1,26 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Utils */
+.product {
+  background-color: purple;
+  border: black dashed;
+  display: inline-block;
+  width: 350px;
+  height: 600px;
+  margin: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  height: fit-content;
+  width: 70%;
+}
+
+/* Main */
