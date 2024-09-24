@@ -12,8 +12,9 @@
   display: flex;
   width: 30%;
   height: 500px;
-  margin: 50px 10px;
+  margin: 10px;
   flex-direction: column;
+  position: relative;
 }
 
 .product-card-price {
@@ -37,6 +38,20 @@
   object-fit: cover;
 }
 
+.tag {
+  color: white;
+  width: fit-content;
+  padding: 3px 10px;
+  font-weight: bold;
+}
+
+.tag-container {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 80px;
+}
+
 /* Main */
 
 .main .container {
@@ -44,7 +59,6 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  position: relative;
 }
 
 .product-card:hover .image-container:last-of-type {
@@ -61,4 +75,22 @@
 /* SPAM */
 .red {
   color: red;
+}
+.redbg {
+  background-color: red;
+}
+
+.greenbg {
+  background-color: green;
+}
+
+.blacktxtwhitebg {
+  background-color: white;
+  color: black;
+}
+
+.topright {
+  position: absolute;
+  top: 20px;
+  right: 0px;
 }
