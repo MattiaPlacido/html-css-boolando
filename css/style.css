@@ -14,8 +14,7 @@ a {
 /* Utils */
 .product-card {
   display: flex;
-  width: 30%;
-  height: 500px;
+  width: 31%;
   margin: 10px;
   flex-direction: column;
   position: relative;
