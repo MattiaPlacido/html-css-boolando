@@ -28,7 +28,7 @@ a {
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  width: 1000px;
   max-width: 100%;
 }
 
@@ -37,7 +37,7 @@ a {
 }
 
 .image-container {
-  height: 85%;
+  height: 90%;
   width: 100%;
   object-fit: cover;
 }
@@ -53,7 +53,7 @@ a {
   display: flex;
   gap: 5px;
   position: absolute;
-  bottom: 100px;
+  bottom: 80px;
 }
 
 /* Header */
@@ -87,7 +87,11 @@ header {
 
 /* Main */
 
-.main .container {
+main {
+  margin: 25px 0;
+}
+
+main .container {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
